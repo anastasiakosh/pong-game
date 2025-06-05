@@ -11,7 +11,6 @@ void handlePaddleMovement(Paddle& paddle, const sf::Keyboard::Key upKey, const s
 }
 
 void resetPaddle(Paddle& paddle) {
-    // Реализация сброса позиции, если нужно
 }
 
 void moveAI(Paddle& paddle, const Ball& ball, float dt) {
